@@ -1,4 +1,4 @@
-module Bindings where
+module Intro.Bindings where
   
 roots :: Double -> Double -> Double -> (Double, Double)
 roots a b c =
