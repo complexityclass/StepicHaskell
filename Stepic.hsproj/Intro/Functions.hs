@@ -1,4 +1,4 @@
-module Functions where
+module Intro.Functions where
   
 import Data.Char
   
