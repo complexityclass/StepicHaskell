@@ -1,0 +1,12 @@
+-- Haskell Playground 1.0
+--doubleFact 7
+--doubleFact 8
+
+--fibonacci' (-10)
+
+map fibonacci [(-10)..(-1)]
+
+map fibonacci' [(-10)..(-1)]
+
+map fibonacci [0..10]
+map fibonacci' [0..10]
