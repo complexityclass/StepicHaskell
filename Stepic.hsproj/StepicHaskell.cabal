@@ -15,4 +15,4 @@ Executable Problems
   other-modules:
       Intro.Recursion
       Intro.Bindings
-      Basics
+      Basics.Polymorphism

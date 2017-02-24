@@ -1,0 +1,39 @@
+-- Haskell Playground 1.0
+let id x = x
+
+(const True) 6
+
+getSecondFrom 'x' 42 True
+
+apply2 (+5) 22
+
+flip const 5 True
+
+multSecond ('A',2) ('E',7)
+
+(\x -> 2 * x + 7) 10
+
+let p1 = ((1,2),(3,4))
+let p2 = ((3,4),(5,6))
+
+sumFstFst p1 p2
+
+sum3squares 1 2 3
+
+compose
+compose sin cos 1
+(sin . cos) 1
+
+addTwoElements 2 12 [85,0,6]
+
+nTimes 5 5
+
+(curry avg `on` (^2)) 3 4
+
+id sin 1
+
+curry id 2 1
+
+(uncurry (flip const)) (1,2)
+
+swap2 (1,2)
