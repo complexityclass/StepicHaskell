@@ -1,0 +1,11 @@
+-- Haskell Playground 1.0
+(> 7)
+True |==| False
+True |==| True
+
+toString True
+toString False
+toString ()
+
+toString (False, ())
+toString (True, False)

@@ -1,0 +1,11 @@
+-- Haskell Playground 1.0
+read "5" :: Int
+read "5" :: Double
+read "[1,2]" :: [Double]
+reads "5 strings" :: [(Int, String)]
+
+ip
+
+maxBound :: Int
+
+6 == 7
