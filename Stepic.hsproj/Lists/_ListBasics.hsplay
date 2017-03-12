@@ -1,0 +1,49 @@
+-- Haskell Playground 1.0
+-- Construct
+[]
+let lst = 5 : 3 : []
+[5,3] == lst
+
+cons42 [4,5,6]
+
+nTimes 42 3
+
+fst' (3,4)
+head' [1,2,3]
+tail' [1,2,3]
+second' [1,2,3]
+
+let a =  [(1,2),(3,4)]
+
+sndHead a
+t a
+
+oddsOnly [2,5,7,10,11,12]
+
+odd 3
+
+isPalindrome "saippuakivikauppias"
+isPalindrome [1]
+isPalindrome [1, 2]
+
+sum2 [1,2,3] [4,5]
+
+sum3 [1,2,3] [4,5] [6]
+
+head [1,2,4]
+
+---
+
+groupElems [1,2,2,2,4]
+groupElems [1,2]
+groupElems [1,2,3,2,4]
+groupElems []
+groupElems [1,2]
+
+
+---
+take 3 [1,2,3,4,5]
+drop 3 [1,2,3,4,5]
+splitAt 3 [1,2,3,4,5]
+
+"Hello World!" !! 6

@@ -11,9 +11,15 @@ Executable Problems
   main-is: Intro/Functions.hs
   buildable: True
   build-depends:
-      base -any
+      base -any,
+      containers -any
   other-modules:
       Intro.Recursion
       Intro.Bindings
       Basics.TypeClass
+      Basics.Extensions
+      Basics.Module
       Basics.Polymorphism
+      Basics.Reduction
+      Basics.NumType
+      Lists.ListBasics
